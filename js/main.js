@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const height = container.clientHeight  // get height of screen
 
-        mainSlide.style.transform = `translateY(-${activeSlideIDX * height}px)`
+        mainSlide.style.transform = `translateY(-${activeSlideIDX * height}px)` 
         sidebar.style.transform = `translateY(${activeSlideIDX * height}px)`
     }
 })

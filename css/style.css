@@ -52,10 +52,10 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
-.main-slide > div {
+.main-slide__item {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     height: 100%;
     width: 100%;
 }
