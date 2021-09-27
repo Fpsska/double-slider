@@ -95,3 +95,30 @@ button:focus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 45%;
+    }
+    .container .controls button {
+        left: 45%;
+    }
+    .main-slide {
+        width: 55%;
+        right: 0;
+        left: auto;
+    }
+}
+
+@media (max-width: 676px) {
+    .sidebar h1 {
+        font-size: 24px;
+    }
+    .container .controls button {
+        top: 55%;
+    }
+    button {
+        padding: 10px;
+    }
+}
